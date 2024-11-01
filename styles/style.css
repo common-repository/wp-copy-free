@@ -1,0 +1,174 @@
+/**
+ * WP-Copy CSS Styles
+ * @author Adrian S. (https://amsquared.co.uk)
+ * @version 1.1
+ */
+
+.align-right{
+    text-align: right;
+}
+
+.align-center{
+    text-align: center;
+}
+
+.align-left{
+    text-align: left;
+}
+
+.clear{
+    clear: both;
+}
+
+.wpcopy-info, .wpcopy-banner-comparison-wrap{
+    font-size: 1.2em;
+    font-family: "Trebuchet Ms", "Helvetica Neue", tahoma, arial, san-serif;
+}
+
+.wpcopy-info{
+    line-height: 1.5em;
+}
+
+.wpcopy-banner-comparison-wrap{
+    font-size: 1.4em;
+}
+
+.wpcopy-banner-comparison-wrap a.button{
+    font-size: .9em;
+    padding: .3em .5em;
+    height: auto;
+    width: auto;
+    border-color: #888;
+}
+
+.wpcopy-banner-comparison-wrap{
+    background: #F2F2F2;
+    border-radius: .3em;
+    padding: 15px;
+}
+
+.wpcopy-banner-comparison-wrap table{
+    width: 99%;
+}
+
+.wpcopy-banner-comparison-wrap table th{
+    padding: .5em;
+}
+
+.wpcopy-banner-comparison-wrap table td{
+    text-align: center;
+    padding: .5em;
+    border-bottom: 1px solid #999;
+    margin: 0px;
+}
+
+.wpcopy-banner-comparison-wrap .icon-minus-sign{
+    color: red;
+}
+
+.wpcopy-banner-comparison-wrap .icon-ok{
+    color: green;
+}
+
+.goodies-main-area{
+    width: 70%;
+    float: left;
+}
+
+.goodies-main-area h4{
+    font-size: 1.6em;
+    font-weight: normal;
+    font-style: italic;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.goodies-right-area{
+    width: 27%;
+    float: right;
+    background: #f1f1f1;
+    border-radius: .3em;
+}
+
+.goodies-right-area >*{
+    margin: 1em;
+}
+
+p.msg{
+    font-size: 1.1em;
+    padding: 10px;
+    border: 1px solid #dcdcdc;
+    margin: 10px 0px;
+    border-radius: .3em;
+}
+
+p.msg.note{
+    background-color: #BDE5F8;
+}
+
+p.msg.warn, p.msg.warning{
+    background-color: #FEEFB3;
+}
+
+p.msg.error{
+    background-color: #FFBABA;
+}
+
+.goodies-key-form{
+    background: #f1f1f1;
+    border-radius: .3em;
+}
+
+.launch-buttons .button{
+    font-size: 1.2em;
+    padding: 0px 12px;
+    line-height: 2.5;
+    height: auto;
+    margin-bottom: 15px;
+    -webkit-transition-property: none;
+    -moz-transition-property: none;
+    transition-property: none;
+}
+
+.social-icons{
+    font-size: 2.3em;
+}
+
+.website-link{
+    font-weight: bold;
+    font-family: 'Helvetica Neue', Arial, san-serif;
+}
+
+.website-link:hover{
+    color: #2a2846;
+}
+
+.fb-link:hover{
+    color: #3b5998;
+}
+
+.twitter-link:hover{
+    color: #00aced;
+}
+
+.social-icons a{
+    text-decoration: none;
+    color: #333333;
+}
+
+.wpdev-logo{
+    background: none;
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    background-size: auto 200%;
+    width: 125px;
+    height: 33px;
+    display: inline-block;
+    float: left;
+    -webkit-transition-duration: .0s;
+    -moz-transition-duration: .0s;
+    transition-duration: .0s;
+}
+
+.wpdev-logo:hover{
+    background-position: 50% 106%;
+}
